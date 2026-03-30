@@ -20,4 +20,10 @@ def find_and_run_plugins(plugin_prefix):
 
 
 if __name__ == '__main__':
-    fire.Fire(find_and_run_plugins)
+    fire.Fire()
+
+# execute in terminal with:
+# python chap3-7.py --help
+# To run plugins, use:
+# python chap3-7.py find_and_run_plugins --plugin_prefix=plugin_
+# python chap3-7.py find_and_run_plugins plugin_math_
